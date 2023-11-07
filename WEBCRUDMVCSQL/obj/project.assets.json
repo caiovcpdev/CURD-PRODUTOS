@@ -11369,11 +11369,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caio\\source\\repos\\WEBCRUDMVCSQL\\WEBCRUDMVCSQL\\WEBCRUDMVCSQL.csproj",
+      "projectUniqueName": "C:\\Users\\caio\\source\\repos\\WEBCRUDMVC-copia\\WEBCRUDMVCSQL\\WEBCRUDMVCSQL.csproj",
       "projectName": "WEBCRUDMVCSQL",
-      "projectPath": "C:\\Users\\caio\\source\\repos\\WEBCRUDMVCSQL\\WEBCRUDMVCSQL\\WEBCRUDMVCSQL.csproj",
+      "projectPath": "C:\\Users\\caio\\source\\repos\\WEBCRUDMVC-copia\\WEBCRUDMVCSQL\\WEBCRUDMVCSQL.csproj",
       "packagesPath": "C:\\Users\\caio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caio\\source\\repos\\WEBCRUDMVCSQL\\WEBCRUDMVCSQL\\obj\\",
+      "outputPath": "C:\\Users\\caio\\source\\repos\\WEBCRUDMVC-copia\\WEBCRUDMVCSQL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

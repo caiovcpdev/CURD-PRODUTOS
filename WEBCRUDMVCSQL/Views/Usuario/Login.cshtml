@@ -8,18 +8,36 @@
 </div>
 
 <div>
-    <form>
+    <form asp-action="Login" method="post">
         <div class="mb-3">
             <label asp-for="Email" class="form-label">Email</label>
-            <input asp-for="Email" type="email" class="form-control" aria-describedby="emailHelp">
+            <input asp-for="Email" type="email" class="form-control" aria-describedby="emailHelp" id="EmailInput">
         </div>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Senha</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <label asp-for="Senha" class="form-label">Senha</label>
+            <input asp-for="Senha" type="password" class="form-control" id="SenhaInput">
         </div>
         <div style="display: flex;">
-            <button type="submit" class="btn btn-primary">Registrar</button> 
+            <button type="submit" class="btn btn-primary" id="VerificaEmail">Entrar</button> 
             <a style="margin-left:10px; padding-top:10px;" asp-controller="Usuario" asp-action="Registrar">Registre-se!</a>
         </div>
     </form>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(() => {
+        $('#VerificaEmail').click(() => {
+            var email = $('#EmailInput').val();
+            var senha = $('#SenhaInput').val();
+
+            $.ajax({
+                url:'/Usuario/Login',
+                method:'POST',
+                data: {Email: email, Senha: senha},
+                success: function (result) {console.log('Funcionou')}
+            })
+        });
+    });
+
+</script>

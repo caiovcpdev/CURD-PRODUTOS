@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yk0GCmsTV4gOTD2woOXqgY8oSUilR/RPU+O51/I+zP5fsF19lmscduXDo4W0RjrWfe9kmyupDMSBPWaApY6BQw==",
+  "dgSpecHash": "ZHlWKjciyLHYTO9qJIn21HoWh+enlON1vjZ+6X33yNu7IE7GXIsmp7vdMAlTQqyu+D1b85VO4069qvxBbQuI0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\caio\\source\\repos\\WEBCRUDMVCSQL\\WEBCRUDMVCSQL\\WEBCRUDMVCSQL.csproj",
+  "projectFilePath": "C:\\Users\\caio\\source\\repos\\WEBCRUDMVC-copia\\WEBCRUDMVCSQL\\WEBCRUDMVCSQL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caio\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
